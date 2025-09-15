@@ -878,7 +878,7 @@ Option | Description
 `postbackHandlerName` | comma-separated list of AJAX handler names with which the data table content will be sent. When set to `null` (default), the handler name will be auto-detected from the request name used by the form which contains the data table. It is recommended to keep this as `null`.
 `recordsPerPage` | the number of records to show per page. If set to `false`, the pagination will be disabled.
 `searching` | allow records to be searched via a search box. Default: `false`.
-`toolbar` | an array representing the toolbar configuration of the data table.
+`toolbar` | display the toolbar on top of the data table. Default: `true`.
 
 #### Column configuration
 

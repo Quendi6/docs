@@ -918,6 +918,7 @@ Option | Description
 `title` | defines the column's title.
 `validation` | an array specifying the validation for the content of the column's cells. See the *Column validation* section below.
 `width` | defines the width of the column, in pixels.
+`searchable` | Allow the column to be searched. Default: `false`.
 
 #### Column validation
 
